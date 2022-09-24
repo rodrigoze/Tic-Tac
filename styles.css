@@ -1,0 +1,24 @@
+*{
+    font-family: Assistant;
+}
+
+body{
+   
+}
+#header{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding:5px;
+}
+#tic{
+    font-size:20px;
+    font-weight: 800;
+}
+#rodrigo{
+    font-weight: 200;
+    font-size: 17px;
+}
