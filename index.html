@@ -17,5 +17,29 @@
        <div id="rodrigo">rodrigo</div>
     </div> 
 
+    <div id="container">
+        <div id="zero" data-number="0" class="box" onclick="game.playerClick(player)"></div>
+        <div id="one" class="box" data-number="1" onclick="game.playerClick(player)"></div>
+        <div id="two" class="box" data-number="2" onclick="game.playerClick(player)"></div>
+        <div id="three" class="box" data-number="3" onclick="game.playerClick(player)"></div>
+        <div id="four" class="box" data-number="4" onclick="game.playerClick(player)"></div>
+        <div id="five" class="box" data-number="5" onclick="game.playerClick(player)"></div>
+        <div id="six" class="box" data-number="6" onclick="game.playerClick(player)"></div>
+        <div id="seven" class="box" data-number="7" onclick="game.playerClick(player)"></div>
+        <div id="eight" class="box" data-number="8" onclick="game.playerClick(player)"></div>
+    </div>
+    
+    <form class="form-container" id="form" onsubmit="return addPlayer();" >
+        <div class="login"> Player Names</div>
+        <input type="text" placeholder="Enter Player One Name" name="name" id="names" required>
+        <input type="text" placeholder="Enter Player Two name" name="author" id="authors"required>
+        <button type="submit" class="btn" id="submit">Submit</button>
+      </form>
+      <div id="under">
+    <div id="subtext"></div>
+</div>
+<button id="reset" onclick="reseto()">Reset</button>
+
+
 </body>
 </html>

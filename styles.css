@@ -22,3 +22,77 @@ body{
     font-weight: 200;
     font-size: 17px;
 }
+#container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display:none;
+}
+#zero,#one,#two,#three,#four,#five,#six,#seven,#eight{
+    padding-top:40px;
+    padding-bottom: 40px;
+    text-align: center;
+    flex-basis :26%;
+    border:1px solid lightgray;
+    color:gray;
+    font-size:60px;
+    font-weight: 200;
+}
+#subtext{
+    margin:auto;
+    text-align:center;
+    color:black;
+    font-size: 40px;
+}
+#reset{
+    display:flex;
+    background-color: black;
+    color:white;
+    border:1px solid lightgray;
+    font-size:18px;
+    margin: auto;  
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display:none;
+}
+#form{
+    display:block;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    margin-left:400px;
+    margin-right:400px;;
+    padding:50px;
+    gap:15px;
+}
+
+.login{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#names,#authors{
+    text-align: center;
+    font-size:24px;
+    font-weight: 300;
+    border:none;
+    border-bottom: 5px solid lightgray;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#submit
+{
+    background-color:black;
+    font-size:24px;
+    font-weight:100;
+    color:white;
+}
